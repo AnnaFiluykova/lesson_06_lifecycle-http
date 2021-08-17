@@ -1,11 +1,13 @@
 import React, { Fragment } from 'react';
 
-import App from './watches/Components/App';
+import AppWatchers from './watches/components/App';
+import AppNotes from './crud/components/App';
 
 const Root = () => {
   return (
     <Fragment>
-      <App />
+      <AppWatchers />
+      <AppNotes />
     </Fragment>
   );
 }

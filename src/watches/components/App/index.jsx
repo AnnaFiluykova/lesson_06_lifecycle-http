@@ -4,7 +4,7 @@ import Watches from '../Watches';
 
 const App = () => {
   return (
-    <div><Watches /></div>
+    <Watches />
   )
 }
 
