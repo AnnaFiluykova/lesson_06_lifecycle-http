@@ -1,0 +1,45 @@
+.main__container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.container__crud {
+  display: flex;
+  gap: 20px;
+}
+
+.items__container {
+  display: flex;
+  gap: 20px;
+}
+
+.item__content {
+  width: 200px;
+  height: 140px;
+  border: 2px solid black;
+  position: relative;
+
+}
+
+.icon-delete {
+  background-image: url("../../images/baseline_highlight_off_black_24dp.png");
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: -12px;
+  top: -12px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.icon__update {
+  background-image: url("../../images/baseline_update_black_24dp.png");
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
